@@ -1,0 +1,67 @@
+.gallerySection {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.cameraBtn {
+  display: block;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  height: 42px;
+  width: 42px;
+}
+
+.listSection {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.header{
+  top:0;
+  height:12vh;
+}
+
+.cameraBtn div {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cameraBtn div div {
+  width: 35px;
+  height: 35px;
+  background-color: #141414;
+}
+
+.cameraBtn div div div {
+  width: 26px;
+  height: 26px;
+  background-color: rgba(255, 255, 255, 0.14);
+}
+
+.cameraBtn div div div div {
+  width: 19px;
+  height: 19px;
+  background-color: rgba(255, 255, 255, 0.14);
+}
+
+.cameraBtn div div div div div {
+  width: 2.5px;
+  height: 2.5px;
+  background: rgba(255, 255, 255, 0.45);
+  position: absolute;
+  top: 42%;
+  left: 33%;
+}

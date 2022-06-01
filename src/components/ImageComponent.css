@@ -1,0 +1,23 @@
+.imageComponent {
+  margin: 5px;
+  max-width: 320px;
+  max-height: 240px;
+  overflow: hidden;
+  position: relative;
+}
+
+.deleteBtn {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  border: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}

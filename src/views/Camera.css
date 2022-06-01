@@ -1,0 +1,21 @@
+.cameraSection{
+  width: 100%;
+  height: 100%;
+}
+
+.GalleryBtn{
+  display: block;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  height: 39px;
+  width: 39px;
+}
+
+.GalleryBtn div{
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  margin: 1.5px;
+  float: left;
+}
