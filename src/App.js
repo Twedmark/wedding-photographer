@@ -4,7 +4,6 @@ import { Routes, Route } from 'react-router-dom';
 import Landing from './views/Landing';
 import Camera from './views/Camera';
 import Gallery from './views/Gallery';
-// import Camera from './components/CameraComponent'
 
 function App() {
   return (
